@@ -1,0 +1,51 @@
+.main-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.scooter-img {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../assets/img/download.jpeg");
+     background-repeat: no-repeat;
+   
+}
+
+.container-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 38px;
+}
+
+.price-text {
+    color: #f92c2c;
+    font-size: 32px;
+    font-family: "Poppins-Semibold";
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.header-text {
+    font-size: 65px;
+    line-height: 48px;
+    color: black;
+    margin-bottom: 15px;
+    font-family: "Poppins-ExtraBold";
+    font-weight: 400;
+}
+
+.scooter-about-text {
+    font-size: 16px;
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    line-height: 24px;
+    color: #7d7d7d;
+    margin-bottom: 15px;
+}
+
+.scooter-properties {
+    display: flex;
+}
